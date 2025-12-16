@@ -11,7 +11,7 @@ The purpose of this project is to showcase practical Data Engineering skills usi
 ## Architecture
 The pipeline follows a classic ELT approach:
 
-AWS S3 (raw files)  
+→ AWS S3 (raw files)  
 → Snowflake RAW layer (COPY INTO)  
 → Snowflake STAGING layer (cleaned tables)  
 → Snowflake ANALYTICS layer (analysis queries)
@@ -45,23 +45,7 @@ This type of data is commonly used in real-world public transportation systems.
 
 ## Project Structure
 
-stockholm-transport-snowflake-aws/
-│
-├── snowflake/
-│ ├── 01_context.sql
-│ ├── 02_raw_load.sql
-│ ├── 03_staging_transform.sql
-│ └── 04_analytics.sql
-│
-├── aws/
-│ └── (AWS IAM policies and configuration files)
-│
-├── docs/
-│ └── (architecture diagrams and documentation)
-│
-├── README.md
-└── .gitignore
-
+![](docs/images/Project Structure.png)
 
 ---
 
