@@ -17,7 +17,7 @@ The pipeline follows a classic ELT approach:
 → Snowflake ANALYTICS layer (analysis queries)
 
 ### AWS S3 Raw Data Structure
-![AWS S3 Raw Data Structure](docs/images/S3_raw_bucket_structure.png)
+![AWS S3 Raw Data Structure](docs/images/s3_raw_bucket_structure.png)
 
 ### Snowflake Database and Schema Structure
 ![Snowflake Database and Schema Structure](docs/images/snowflake_database_and_schemas.png)
