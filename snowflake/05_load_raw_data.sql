@@ -1,3 +1,10 @@
+-- ============================================================================
+-- Worksheet: 05_load_raw_data
+-- Purpose  : Load raw data from AWS S3 into Snowflake RAW tables.
+--            - Use COPY INTO from external stage
+--            - Validate row counts after load
+-- ============================================================================
+-- Context setup: use admin role, warehouse, database, and raw schema
 USE ROLE ACCOUNTADMIN;
 USE WAREHOUSE wh_transport;
 USE DATABASE stockholm_transport;

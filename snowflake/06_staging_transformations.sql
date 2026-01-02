@@ -1,4 +1,12 @@
--- Context setup: role, warehouse, database, and staging schema
+-- ============================================================================
+-- Worksheet: 06_staging_transformations
+-- Purpose  : Clean, normalize, and enrich raw data.
+--            - Apply basic data quality filters
+--            - Map route types to business-friendly transport modes
+--            - Prepare data for analytics
+-- ============================================================================
+
+-- Context setup: use admin role, warehouse, database, and staging schema
 USE ROLE ACCOUNTADMIN;
 USE WAREHOUSE wh_transport;
 USE DATABASE stockholm_transport;
