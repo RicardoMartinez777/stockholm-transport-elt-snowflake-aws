@@ -90,7 +90,7 @@ Perform analytical queries and **generate insights**.
 
 ---
 
-### Example Analytics Questions
+## Example Analytics Questions
 
 - How many trips are scheduled for each route?
 - How many distinct stops does each route serve?
@@ -99,6 +99,8 @@ Perform analytical queries and **generate insights**.
 - What is the service validity range (start/end) for each route?
 
 ---
+
+## Pipeline Walkthrough (Evidence)
 
 ### AWS S3 Raw Data Structure
 ![AWS S3 Raw Data Structure](docs/images/aws_raw_bucket_structure.png)
@@ -140,4 +142,4 @@ This project demonstrates:
 
 ## Author
 **Ricardo Martinez**
-Data Engineer | AWS | ELT | Snowflake
+- Data Engineer | AWS | ELT | Snowflake
