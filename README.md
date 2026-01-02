@@ -143,4 +143,4 @@ This project demonstrates:
 ## Author
 
 **Ricardo Martinez**
- Data Engineer | AWS | ELT | Snowflake
+Data Engineer | AWS | ELT | Snowflake
